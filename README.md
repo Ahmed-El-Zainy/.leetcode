@@ -1,11 +1,10 @@
-
 # LeetCode Solutions — Index
 
 This repository collects my LeetCode problem solutions (Python). Use this README as a quick index to jump to a solved problem.
 
 ## Usage
 
-- Run a solution file with: `python3 <filename>.py`
+- Run a solution file with: `python3 solving.py`
 - Files are named with the LeetCode number prefix when available.
 
 ## Solved Problems
@@ -36,8 +35,10 @@ This repository collects my LeetCode problem solutions (Python). Use this README
 This table is automatically generated from solution files in the `src/` folder. Add a short `Time` / `Space` comment to the top of a file (see usage below) and re-run the update script to populate this table.
 
 | File | Problem | Time | Space |
-|---|---|---:|---:|
+| ---- | ------- | ---: | ----: |
+
 <!-- COMPLEXITY_TABLE_START -->
+
 <!-- COMPLEXITY_TABLE_END -->
 
 ## Helpers / Utilities
