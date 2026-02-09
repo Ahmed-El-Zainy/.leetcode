@@ -31,6 +31,15 @@ This repository collects my LeetCode problem solutions (Python). Use this README
 - [796.rotate-string.py](796.rotate-string.py) — 796 — Rotate String
 - [831.masking-personal-information.py](831.masking-personal-information.py) — 831 — Masking Personal Information
 
+## Complexity Table
+
+This table is automatically generated from solution files in the `src/` folder. Add a short `Time` / `Space` comment to the top of a file (see usage below) and re-run the update script to populate this table.
+
+| File | Problem | Time | Space |
+|---|---|---:|---:|
+<!-- COMPLEXITY_TABLE_START -->
+<!-- COMPLEXITY_TABLE_END -->
+
 ## Helpers / Utilities
 
 - [coding_agents.py](coding_agents.py) — helper scripts and agents
