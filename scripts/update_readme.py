@@ -38,7 +38,8 @@ def extract_complexity(path: Path):
         if ms:
             space = ms.group(1).strip()
 
-        # Complexity: Time=..., Space=...
+        # Complexity: Time=...
+        # Space=...
         mc = re.search(r'Complexity\s*[:=]\s*(.*)$', line, re.I)
         if mc:
             s = mc.group(1)
@@ -57,7 +58,6 @@ def extract_complexity(path: Path):
                             time = p
                         elif not space:
                             space = p
-
     return time or "?", space or "?"
 
 

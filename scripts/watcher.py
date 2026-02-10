@@ -15,7 +15,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / 'src'
-SEEN_FILE = ROOT / '.scripts_seen_files'
+ASS = ROOT / "assets"
+SEEN_FILE = ASS / '.scripts_seen_files.txt'
 
 
 def load_seen():
