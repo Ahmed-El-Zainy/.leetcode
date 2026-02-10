@@ -90,17 +90,10 @@ class Solution:
             for j in range(i, n):
                 if nums[j] % 2 == 0:
                     even.add(nums[j])
-                else:
+                else: 
                     odd.add(nums[j])
-                if len(even) == len(odd):
+                if len(odd) == len(even):
                     ans = max(ans, j - i + 1)
         return ans
-
 # @lc code=end
 
-if __name__=="__main__":
-    sol = Solution()
-    arr = [2,5,4,3]
-    Output = 4
-    print(f"output: {Output}, solution: {sol.longestBalanced(arr)}")
-    assert Output==sol.longestBalanced(arr)
