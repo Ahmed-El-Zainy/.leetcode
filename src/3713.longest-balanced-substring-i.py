@@ -36,10 +36,9 @@
 # 
 # Example 2:
 # 
-# 
 # Input: s = "zzabccy"
 # 
-# Output: 4
+# Output: 4https://huggingface.co/docs/inference-providers/providers/hf-inference
 # 
 # Explanation:
 # 
@@ -71,41 +70,32 @@
 #
 #
 
+# @lc code=start
 class Solution:
     def longestBalanced(self, s: str) -> int:
-        n = len(s)
-        max_length = 0
+        """
+        convert to list 
+        then how can we track long distinct substring ?
         
+        
+        """
+        n = len(s)
+        max_len = 0
         for i in range(n):
             freq = [0] * 26
-            distinct = 0
             max_freq = 0
-            
+            distinct = 0
             for j in range(i, n):
-                idx = ord(s[j]) - ord('a')
-                
+                idx = ord(s[j]) - ord("a")
                 if freq[idx] == 0:
                     distinct += 1
-                
                 freq[idx] += 1
                 max_freq = max(max_freq, freq[idx])
                 
                 length = j - i + 1
-                
-                # Balanced condition
+                ## balanced condition 
                 if max_freq * distinct == length:
-                    max_length = max(max_length, length)
-        
-        return max_length
+                    max_len = max(max_len , length)
+        return max_len
+# @lc code=end
 
-        
-
-
-
-if __name__=="__main__":
-    sol = Solution()
-    
-    s= "abbc"
-    Output = 2
-    print(f"output: {Output}, solution: {sol.longestBalanced(s)}")
-    assert Output==sol.longestBalanced(s)
