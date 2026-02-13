@@ -72,6 +72,7 @@ This table is automatically generated from solution files in the `src/` folder. 
 | [3646.next-special-palindrome-number.py](src/3646.next-special-palindrome-number.py) | 3646 — Next Special Palindrome Number | ? | ? |
 | [3683.earliest-time-to-finish-one-task.py](src/3683.earliest-time-to-finish-one-task.py) | 3683 — Earliest Time To Finish One Task | ? | ? |
 | [3719.longest-balanced-subarray-i.py](src/3719.longest-balanced-subarray-i.py) | 3719 — Longest Balanced Subarray I | ? | ? |
+| [3721.longest-balanced-subarray-ii.py](src/3721.longest-balanced-subarray-ii.py) | 3721 — Longest Balanced Subarray Ii | ? | ? |
 | [373.find-k-pairs-with-smallest-sums.py](src/373.find-k-pairs-with-smallest-sums.py) | 373 — Find K Pairs With Smallest Sums | ? | ? |
 | [384.shuffle-an-array.py](src/384.shuffle-an-array.py) | 384 — Shuffle An Array | ? | ? |
 | [448.find-all-numbers-disappeared-in-an-array.py](src/448.find-all-numbers-disappeared-in-an-array.py) | 448 — Find All Numbers Disappeared In An Array | ? | ? |
