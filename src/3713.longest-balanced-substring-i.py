@@ -89,6 +89,8 @@ class Solution:
                 idx = ord(s[j]) - ord("a")
                 if freq[idx] == 0:
                     distinct += 1
+                    
+                    
                 freq[idx] += 1
                 max_freq = max(max_freq, freq[idx])
                 
@@ -97,5 +99,29 @@ class Solution:
                 if max_freq * distinct == length:
                     max_len = max(max_len , length)
         return max_len
-# @lc code=end
-
+        max_length = 0
+        for i in range(s):
+            for j in range(i, s):
+                substring = s[i:j+1]
+                char_count = {}
+                for char in substring:
+                    char_count[char] = char_count.get(char, 0) + 1
+                if len(set(char_count.values())) == 1:
+                    max_length = max(max_length, j - i + 1)
+        s = '#' + s
+        n = len(s)
+        count = [[0] * 3 for _ in range(n)]
+        for i in range(1, n):
+            count[i][0] = count[i - 1][0] + (s[i] == 'a')
+            count[i][1] = count[i - 1][1] + (s[i] == 'b')
+            count[i][2] = count[i - 1][2] + (s[i] == 'c')
+        max_length = 0
+        for i in range(n):
+            for j in range(i + 1, n):
+                a = count[j][0] - count[i][0]
+                b = count[j][1] - count[i][1]
+                c = count[j][2] - count[i][2]
+                if (a == 0 or a == b == c) and (b == 0 or a == b == c) and (c == 0 or a == b == c):
+                    max_length = max(max_length, j - i)
+        return max_length
+    
