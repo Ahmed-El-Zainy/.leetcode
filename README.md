@@ -71,6 +71,8 @@ This table is automatically generated from solution files in the `src/` folder. 
 | [3637.trionic-array-i.py](src/3637.trionic-array-i.py) | 3637 — Trionic Array I | ? | ? |
 | [3646.next-special-palindrome-number.py](src/3646.next-special-palindrome-number.py) | 3646 — Next Special Palindrome Number | ? | ? |
 | [3683.earliest-time-to-finish-one-task.py](src/3683.earliest-time-to-finish-one-task.py) | 3683 — Earliest Time To Finish One Task | ? | ? |
+| [3713.longest-balanced-substring-i.py](src/3713.longest-balanced-substring-i.py) | 3713 — Longest Balanced Substring I | ? | ? |
+| [3714.longest-balanced-substring-ii.py](src/3714.longest-balanced-substring-ii.py) | 3714 — Longest Balanced Substring Ii | ? | ? |
 | [3719.longest-balanced-subarray-i.py](src/3719.longest-balanced-subarray-i.py) | 3719 — Longest Balanced Subarray I | ? | ? |
 | [3721.longest-balanced-subarray-ii.py](src/3721.longest-balanced-subarray-ii.py) | 3721 — Longest Balanced Subarray Ii | ? | ? |
 | [373.find-k-pairs-with-smallest-sums.py](src/373.find-k-pairs-with-smallest-sums.py) | 373 — Find K Pairs With Smallest Sums | ? | ? |
