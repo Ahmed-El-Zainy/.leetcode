@@ -89,6 +89,7 @@ This table is automatically generated from solution files in the `src/` folder. 
 | [686.repeated-string-match.py](src/686.repeated-string-match.py) | 686 — Repeated String Match | ? | ? |
 | [739.daily-temperatures.py](src/739.daily-temperatures.py) | 739 — Daily Temperatures | ? | ? |
 | [796.rotate-string.py](src/796.rotate-string.py) | 796 — Rotate String | ? | ? |
+| [799.champagne-tower.py](src/799.champagne-tower.py) | 799 — Champagne Tower | ? | ? |
 | [8.string-to-integer-atoi.py](src/8.string-to-integer-atoi.py) | 8 — String To Integer Atoi | ? | Ignore any leading whitespace (" "). |
 | [831.masking-personal-information.py](src/831.masking-personal-information.py) | 831 — Masking Personal Information | ? | ? |
 | [84.largest-rectangle-in-histogram.py](src/84.largest-rectangle-in-histogram.py) | 84 — Largest Rectangle In Histogram | ? | ? |
