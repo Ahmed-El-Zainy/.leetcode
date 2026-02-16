@@ -59,6 +59,7 @@ This table is automatically generated from solution files in the `src/` folder. 
 | [1705.maximum-number-of-eaten-apples.py](src/1705.maximum-number-of-eaten-apples.py) | 1705 — Maximum Number Of Eaten Apples | ? | ? |
 | [18.4-sum.py](src/18.4-sum.py) | 18 — 4 Sum | ? | ? |
 | [1877.minimize-maximum-pair-sum-in-array.py](src/1877.minimize-maximum-pair-sum-in-array.py) | 1877 — Minimize Maximum Pair Sum In Array | ? | ? |
+| [190.reverse-bits.py](src/190.reverse-bits.py) | 190 — Reverse Bits | ? | ? |
 | [1984.minimum-difference-between-highest-and-lowest-of-k-scores.py](src/1984.minimum-difference-between-highest-and-lowest-of-k-scores.py) | 1984 — Minimum Difference Between Highest And Lowest Of K Scores | ? | ? |
 | [2.add-two-numbers.py](src/2.add-two-numbers.py) | 2 — Add Two Numbers | ? | ? |
 | [2073.time-needed-to-buy-tickets.py](src/2073.time-needed-to-buy-tickets.py) | 2073 — Time Needed To Buy Tickets | ? | ? |
